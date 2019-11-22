@@ -6,6 +6,7 @@ class StudentsController < ApplicationController
   end
 
   def show
+    render "/students/:id/activate"
   end
 
   private
