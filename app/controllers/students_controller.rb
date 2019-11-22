@@ -6,7 +6,7 @@ class StudentsController < ApplicationController
   end
 
   def show
-    student_path(@student)
+    students_path(@student)
   end
 
   private
